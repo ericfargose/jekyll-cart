@@ -1,0 +1,44 @@
+---
+layout: default
+title: Site Builder - Contact Us
+section_id: contact
+---
+<h1 style = "margin-left:10px;color:#818181;font-size:35px;" class = "text-darken-4">Contact Us</h1>
+<br/>
+<br/>
+<div class="row container">
+  <form class="col s12">
+    <div class="row">
+      <div class="input-field col s6">
+        <input type="hidden" name="utf8" value="✓">
+        <input id="name" name="name" type="text" class="validate">
+        <label class = "active" for="name">Name</label>
+        <div id="name_e" style="color:red;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="email" type="email" name="email" class="validate">
+        <label for="email">Email</label>
+        <div id="email_e" style="color:red;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="phone" type="tel" name="phone" class="validate">
+        <label for="phone">Phone</label>
+        <div id="phone_e" style="color:red;"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="textarea1" class="materialize-textarea" name="message" style="white-space: pre-wrap;"></textarea>
+        <label for="textarea1">Your message</label>
+        <div id="message_e" style="color:red;"></div>
+      </div>
+    </div>
+    <button class="blue darken-3 btn waves-effect waves-light" type="submit" id="emailLink" name="action">Submit
+      <i class="mdi-content-send right"></i>
+    </button>
+  </form>
+</div>

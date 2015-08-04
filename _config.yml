@@ -1,0 +1,6 @@
+name: kodeplay
+markdown: redcarpet
+pygments: true
+excerpt_separator: <!--more-->
+paginate: 3
+paginate_path: "blog/page:num"

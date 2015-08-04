@@ -1,0 +1,70 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.mar10{
+  margin:10px;
+}
+.mar20{
+  margin:20px;
+}
+.pad10{
+  padding:10px;
+}
+.pad5{
+  padding:5px;
+}
+.ver50{
+  margin-top:100px;
+  margin-bottom:100px;
+}
+.bold{
+  font-weight:bold;
+}
+.mar-top-50{
+  margin-top:50px;
+}
+
+.mar-bot-40{
+  margin-bottom:40px;
+}
+.mar-left-20{
+  margin-left:20px;
+}
+.thatpink{
+  background-color:#ee6e73;
+}
+.thatpink-text{
+  color:#ee6e73
+}
+.thatleftnav{
+
+  overflow:hidden;
+}
+ul.side-nav.fixed li a {
+  font-size: 13px;
+  line-height: 44px;
+  height: 44px;
+}
+ide-nav.fixed {
+overflow: hidden; }
+ul.side-nav.fixed li {
+line-height: 44px; }
+ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
+background-color: rgba(0, 0, 0, 0.05); }
+ul.side-nav.fixed li a {
+  font-size: 13px;
+  line-height: 44px;
+height: 44px; }
+ul.side-nav.fixed ul.collapsible-accordion {
+background-color: #FFF; }
+ul.side-nav.fixed:hover {
+overflow-y: auto; }
+

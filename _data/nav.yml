@@ -1,0 +1,15 @@
+- name: Home
+  path: index.html
+  section_id: home
+- name: Services
+  path: services.html
+  section_id: services
+- name: Portfolio
+  path: portfolio.html
+  section_id: portfolio
+- name: About Us
+  path: about.html
+  section_id: about  
+- name: Blog
+  path: blog/
+  section_id: blog
